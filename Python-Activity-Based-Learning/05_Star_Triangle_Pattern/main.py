@@ -1,3 +1,5 @@
+# A for loop, if-else, and string repetition
+
 rows = int(input("Enter number of rows: "))
 
 if rows <= 0:
