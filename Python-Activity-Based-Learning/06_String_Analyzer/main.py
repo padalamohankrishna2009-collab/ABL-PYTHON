@@ -1,10 +1,12 @@
-text = input("Enter a sentence: ")
+# String length, string methods, and membership operator
 
-print("Length:", len(text))
-print("Uppercase:", text.upper())
-print("Lowercase:", text.lower())
+sentence = input("Enter a sentence: ")
 
-if "python" in text.lower():
+print("Length:", len(sentence))
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+
+if "python" in sentence.lower():
     print("The sentence contains the word 'python'.")
 else:
     print("The sentence does not contain the word 'python'.")
