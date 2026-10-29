@@ -1,3 +1,5 @@
+# Variables, input, arithmetic operators, and if-elif-else
+
 m1 = float(input("Enter marks for subject 1: "))
 m2 = float(input("Enter marks for subject 2: "))
 m3 = float(input("Enter marks for subject 3: "))
