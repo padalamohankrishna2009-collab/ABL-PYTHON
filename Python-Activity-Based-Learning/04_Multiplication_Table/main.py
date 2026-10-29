@@ -1,4 +1,6 @@
-n = int(input("Enter a number: "))
+# A for loop and arithmetic operators
+
+number = int(input("Enter a number: "))
 
 for i in range(1, 11):
-    print(f"{n} x {i} = {n * i}")
+    print(number, "x", i, "=", number * i)
