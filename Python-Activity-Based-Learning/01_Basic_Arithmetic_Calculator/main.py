@@ -1,5 +1,4 @@
-# Project 01: Basic Arithmetic Calculator
-# Syllabus: Unit I — variables, input/output, type conversion, arithmetic operators
+# Basic arithmetic using variables, input, type conversion, and operators
 
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
@@ -12,4 +11,4 @@ if b != 0:
     print("Quotient:", a / b)
     print("Remainder:", a % b)
 else:
-    print("Quotient and remainder are not defined when the second number is zero.")
+    print("Division and remainder are not possible when the second number is zero.")
