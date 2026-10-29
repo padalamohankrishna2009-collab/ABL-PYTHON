@@ -1,7 +1,9 @@
+# Lists, for loop, and basic list operations
+
 numbers = []
 
 for i in range(5):
-    value = float(input(f"Enter number {i + 1}: "))
+    value = float(input("Enter number " + str(i + 1) + ": "))
     numbers.append(value)
 
 print("Original list:", numbers)
