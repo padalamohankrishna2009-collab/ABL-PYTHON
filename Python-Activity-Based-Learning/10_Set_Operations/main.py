@@ -1,3 +1,5 @@
+# Sets, set operations, and membership operator
+
 line1 = input("Enter integers for set A, separated by spaces: ")
 line2 = input("Enter integers for set B, separated by spaces: ")
 
@@ -10,8 +12,9 @@ print("Union:", A | B)
 print("Intersection:", A & B)
 print("A - B:", A - B)
 
-x = int(input("Enter a number to search in set A: "))
-if x in A:
-    print(x, "is present in set A.")
+number = int(input("Enter a number to search in set A: "))
+
+if number in A:
+    print(number, "is present in set A.")
 else:
-    print(x, "is not present in set A.")
+    print(number, "is not present in set A.")
